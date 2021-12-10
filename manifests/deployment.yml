@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "myownaks-029a"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "myownaks-029a"
+  template:
+    metadata:
+      labels:
+        app: "myownaks-029a"
+    spec:
+      containers:
+        - name: "myownaks-029a"
+          image: "myowncrregistry.azurecr.io/myownaks"
+          ports:
+          - containerPort: 80
