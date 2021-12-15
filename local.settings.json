@@ -1,7 +1,7 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=myown127;AccountKey=MKU5H4PVA6CSMMnDm+oGUS+mTxOTTiIL4o4Pnf3HotHATKiIfWZ0AEH1ihqTjUWUoJUcqHJH2KY0UcHO525vEw==;BlobEndpoint=https://myown127.blob.core.windows.net/;QueueEndpoint=https://myown127.queue.core.windows.net/;TableEndpoint=https://myown127.table.core.windows.net/;FileEndpoint=https://myown127.file.core.windows.net/;",
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "WORKFLOWS_SUBSCRIPTION_ID": "",
     "Workflows.helloWorld.OperationOptions": "WithStatelessRunHistory"
