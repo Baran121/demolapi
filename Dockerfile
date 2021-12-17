@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/azure-functions/node:3.0
 
-ENV AzureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=myown132;AccountKey=cAULM1ouwecz5ZN+JyQ4weh9tbkGK0bJ6YEBYoQfCAQQuCwRNsCEilUl+cuOshpQC3W2r2Z6J1XAed9CfmZOXg==;BlobEndpoint=https://myown132.blob.core.windows.net/;QueueEndpoint=https://myown132.queue.core.windows.net/;TableEndpoint=https://myown132.table.core.windows.net/;FileEndpoint=https://myown132.file.core.windows.net/;
+ENV AzureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=myown133;AccountKey=bOe3AFGOJEOAm/9cl6wUNX0NUrsFXaRmtONCuvhFnKZCDtDRK2fIrT/+hzZWb2g08I+BVW/I3uU5YeBtk7Cn0A==;BlobEndpoint=https://myown133.blob.core.windows.net/;QueueEndpoint=https://myown133.queue.core.windows.net/;TableEndpoint=https://myown133.table.core.windows.net/;FileEndpoint=https://myown133.file.core.windows.net/;
 ENV AZURE_FUNCTIONS_ENVIRONMENT Development
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot
 ENV AzureFunctionsJobHost__Logging__Console__IsEnabled=true
