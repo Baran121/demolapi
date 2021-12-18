@@ -1,7 +1,7 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=myown133;AccountKey=bOe3AFGOJEOAm/9cl6wUNX0NUrsFXaRmtONCuvhFnKZCDtDRK2fIrT/+hzZWb2g08I+BVW/I3uU5YeBtk7Cn0A==;BlobEndpoint=https://myown133.blob.core.windows.net/;QueueEndpoint=https://myown133.queue.core.windows.net/;TableEndpoint=https://myown133.table.core.windows.net/;FileEndpoint=https://myown133.file.core.windows.net/;",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=lastoragenew;AccountKey=v/hAIbK2gFZLjo+gOIlGF+TerLSnkOFBm/Yws+4/qa1tPcF7f3uxk33jUlI1ajI3ZKaEEaZpua5xopGLNzmSXQ==;EndpointSuffix=core.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "WORKFLOWS_SUBSCRIPTION_ID": "",
     "Workflows.helloWorld.OperationOptions": "WithStatelessRunHistory"
